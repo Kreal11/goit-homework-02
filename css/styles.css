@@ -454,6 +454,7 @@ body {
 
 .portfolio-button-all {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
   text-align: center;
   cursor: pointer;
   /* Button Text */
@@ -472,6 +473,7 @@ body {
 
 .portfolio-button-website {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
   text-align: center;
   cursor: pointer;
   /* Button Text */
@@ -490,6 +492,7 @@ body {
 
 .portfolio-button-app {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
   text-align: center;
   cursor: pointer;
   /* Button Text */
@@ -508,6 +511,7 @@ body {
 
 .portfolio-button-design {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
   text-align: center;
   cursor: pointer;
   /* Button Text */
@@ -526,6 +530,7 @@ body {
 
 .portfolio-button-marketing {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
   text-align: center;
   cursor: pointer;
   /* Button Text */
