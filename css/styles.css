@@ -1,0 +1,767 @@
+/* CSS Custom Properties  */
+
+/* Colors */
+
+:root {
+  --iris-color: #4d5ae5;
+  --navyblue-color: #2e2f42;
+  --slate-color: #434455;
+  --white-color: #fff;
+  --ocean-hover-focus: #404bbf;
+  --cloud-color: #f4f4fd;
+}
+
+/* Header of main page and portfolio  */
+
+.header-main-page {
+  background-color: var(--white-color);
+}
+
+/* Navigation */
+
+.logo-link {
+  text-decoration: none;
+}
+
+.accent-web {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16666667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+
+.accent-studio-header {
+  color: var(--navyblue-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16666667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.main-page-link {
+  text-decoration: none;
+  color: var(--navyblue-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.main-page-link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.main-page-link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: var(--navyblue-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.portfolio-link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.portfolio-link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: var(--navyblue-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contacts-link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.contacts-link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+/* Contact information */
+
+.contact-information-list {
+  list-style-type: none;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: var(--slate-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.mail-link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.mail-link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+.phone-number-link {
+  text-decoration: none;
+  color: var(--slate-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.phone-number-link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.phone-number-link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+/* Body of main page  */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-color);
+  background-color: var(--white-color);
+}
+
+.main-header-hero {
+  background-color: var(--navyblue-color);
+}
+
+.main-header-text {
+  color: var(--white-color);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07142857; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.order-service-button {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.order-service-button:hover {
+  background-color: var(--ocean-hover-focus);
+}
+
+/* Advantages and Competences  */
+
+.advantages .competences {
+  background-color: var(--white-color);
+}
+
+/* Advantages */
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.strategy-advantage {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.strategy-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.punctuality-advantage {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.punctuality-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.diligence-advantage {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.diligence-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.technologies-advantage {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.technologies-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Competences */
+
+.competences-header-text {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11111111; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.competences-list {
+  list-style-type: none;
+}
+
+/* Our Team  */
+
+.team-members {
+  background-color: var(--cloud-color);
+}
+
+.team-members-header {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11111111; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-members-list {
+  list-style-type: none;
+}
+
+.mark-guerrero {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.mark-guerrero-position {
+  color: var(--slate-color);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.tom-ford {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.tom-ford-position {
+  color: var(--slate-color);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.camila-garcia {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.camila-garsia-position {
+  color: var(--slate-color);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.daniel-wilson {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.daniel-wilson-position {
+  color: var(--slate-color);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Body of portfolio  */
+
+.main-of-portfolio {
+  background-color: var(--white-color);
+}
+
+/* Buttons of portfolio  */
+
+.portfolio-buttons-list {
+  list-style-type: none;
+}
+
+.portfolio-button-all {
+  color: var(--iris-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button-all:hover {
+  color: var(--white-color);
+}
+
+.portfolio-button-website {
+  color: var(--iris-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button-website:hover {
+  color: var(--white-color);
+}
+
+.portfolio-button-app {
+  color: var(--iris-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button-app:hover {
+  color: var(--white-color);
+}
+
+.portfolio-button-design {
+  color: var(--iris-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button-design:hover {
+  color: var(--white-color);
+}
+
+.portfolio-button-marketing {
+  color: var(--iris-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button-marketing:hover {
+  color: var(--white-color);
+}
+
+/* Portfolio cases  */
+
+.portfolio-cases-list {
+  list-style-type: none;
+}
+
+.banking-app-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.banking-app-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.cashless-pay-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.cashless-pay-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.meditation-app-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.meditation-app-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.taxi-service-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.taxi-service-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.screen-illustrations-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.screen-illustrations-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.online-courses-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.online-courses-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.instagram-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.instagram-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.organic-food-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.organic-food-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.fresh-coffee-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.fresh-coffee-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Footer of the main page and portfolio */
+
+.footer {
+  background-color: var(--navyblue-color);
+}
+
+.accent-studio-footer {
+  color: var(--cloud-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16666667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.credo {
+  color: var(--cloud-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
