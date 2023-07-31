@@ -467,6 +467,7 @@ body {
 
 .portfolio-button-all:hover {
   color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
 }
 
 .portfolio-button-website {
@@ -484,6 +485,7 @@ body {
 
 .portfolio-button-website:hover {
   color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
 }
 
 .portfolio-button-app {
@@ -501,6 +503,7 @@ body {
 
 .portfolio-button-app:hover {
   color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
 }
 
 .portfolio-button-design {
@@ -518,6 +521,7 @@ body {
 
 .portfolio-button-design:hover {
   color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
 }
 
 .portfolio-button-marketing {
@@ -535,6 +539,7 @@ body {
 
 .portfolio-button-marketing:hover {
   color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
 }
 
 /* Portfolio cases  */
