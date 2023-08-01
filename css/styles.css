@@ -31,10 +31,6 @@
   text-transform: uppercase;
 }
 
-.accent-web {
-  color: var(--iris-color);
-}
-
 .accent-studio-header {
   color: var(--navyblue-color);
   font-family: Raleway;
@@ -50,70 +46,57 @@
   list-style-type: none;
 }
 
-.main-page-link {
-  text-decoration: none;
+.link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+.link-navigation {
   color: var(--navyblue-color);
+  text-decoration: none;
+  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 
-.main-page-link:hover {
+.link-navigation:hover {
   color: var(--ocean-hover-focus);
-}
-
-.main-page-link:focus {
-  color: var(--ocean-hover-focus);
-}
-
-.portfolio-link {
   text-decoration: none;
-  color: var(--navyblue-color);
+  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 
-.portfolio-link:hover {
+.link-navigation:focus {
   color: var(--ocean-hover-focus);
-}
 
-.portfolio-link:focus {
-  color: var(--ocean-hover-focus);
-}
-
-.contacts-link {
-  text-decoration: none;
-  color: var(--navyblue-color);
+  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-}
-
-.contacts-link:hover {
-  color: var(--ocean-hover-focus);
-}
-
-.contacts-link:focus {
-  color: var(--ocean-hover-focus);
 }
 
 /* Contact information */
 
-.contact-information-list {
-  list-style-type: none;
+.contact-information {
+  font-style: normal;
 }
 
-.mail-link {
+.link-contacts {
   text-decoration: none;
   color: var(--slate-color);
   font-family: Roboto;
@@ -124,30 +107,11 @@
   letter-spacing: 0.32px;
 }
 
-.mail-link:hover {
+.link-contacts:hover {
   color: var(--ocean-hover-focus);
 }
 
-.mail-link:focus {
-  color: var(--ocean-hover-focus);
-}
-
-.phone-number-link {
-  text-decoration: none;
-  color: var(--slate-color);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.phone-number-link:hover {
-  color: var(--ocean-hover-focus);
-}
-
-.phone-number-link:focus {
+.link-contacts:focus {
   color: var(--ocean-hover-focus);
 }
 
@@ -261,6 +225,10 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.member-item {
+  background-color: var(--white-color);
 }
 
 .member {
