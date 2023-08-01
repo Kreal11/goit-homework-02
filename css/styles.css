@@ -19,18 +19,19 @@
 
 /* Navigation */
 
-.logo-link {
+.link {
+  color: var(--iris-color);
   text-decoration: none;
-}
-
-.accent-web {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16666667; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.accent-web {
   color: var(--iris-color);
 }
 
@@ -40,12 +41,12 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16666667; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.navigation {
+.list {
   list-style-type: none;
 }
 
@@ -171,7 +172,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07142857; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
 }
 
@@ -180,7 +181,7 @@ body {
   color: var(--white-color);
   cursor: pointer;
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -192,6 +193,10 @@ body {
   background-color: var(--ocean-hover-focus);
 }
 
+.order-service-button:focus {
+  background-color: var(--ocean-hover-focus);
+}
+
 /* Advantages and Competences  */
 
 .advantages .competences {
@@ -200,11 +205,7 @@ body {
 
 /* Advantages */
 
-.advantages-list {
-  list-style-type: none;
-}
-
-.strategy-advantage {
+.advantage {
   color: var(--navyblue-color);
 
   /* Header 3 */
@@ -216,73 +217,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.strategy-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.punctuality-advantage {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.punctuality-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.diligence-advantage {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.diligence-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.technologies-advantage {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.technologies-descr {
+.advantage-descr {
   color: var(--slate-color);
 
   /* Body */
@@ -303,13 +238,9 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11111111; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-
-.competences-list {
-  list-style-type: none;
 }
 
 /* Our Team  */
@@ -327,16 +258,12 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11111111; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
-.team-members-list {
-  list-style-type: none;
-}
-
-.mark-guerrero {
+.member {
   color: var(--navyblue-color);
   text-align: center;
 
@@ -349,85 +276,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.mark-guerrero-position {
-  color: var(--slate-color);
-  text-align: center;
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.tom-ford {
-  color: var(--navyblue-color);
-  text-align: center;
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.tom-ford-position {
-  color: var(--slate-color);
-  text-align: center;
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.camila-garcia {
-  color: var(--navyblue-color);
-  text-align: center;
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.camila-garsia-position {
-  color: var(--slate-color);
-  text-align: center;
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.daniel-wilson {
-  color: var(--navyblue-color);
-  text-align: center;
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.daniel-wilson-position {
+.member-position {
   color: var(--slate-color);
   text-align: center;
 
@@ -452,7 +301,7 @@ body {
   list-style-type: none;
 }
 
-.portfolio-button-all {
+.portfolio-button {
   color: var(--iris-color);
   background-color: var(--cloud-color);
   text-align: center;
@@ -466,83 +315,7 @@ body {
   letter-spacing: 0.64px;
 }
 
-.portfolio-button-all:hover {
-  color: var(--white-color);
-  background-color: var(--ocean-hover-focus);
-}
-
-.portfolio-button-website {
-  color: var(--iris-color);
-  background-color: var(--cloud-color);
-  text-align: center;
-  cursor: pointer;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
-}
-
-.portfolio-button-website:hover {
-  color: var(--white-color);
-  background-color: var(--ocean-hover-focus);
-}
-
-.portfolio-button-app {
-  color: var(--iris-color);
-  background-color: var(--cloud-color);
-  text-align: center;
-  cursor: pointer;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
-}
-
-.portfolio-button-app:hover {
-  color: var(--white-color);
-  background-color: var(--ocean-hover-focus);
-}
-
-.portfolio-button-design {
-  color: var(--iris-color);
-  background-color: var(--cloud-color);
-  text-align: center;
-  cursor: pointer;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
-}
-
-.portfolio-button-design:hover {
-  color: var(--white-color);
-  background-color: var(--ocean-hover-focus);
-}
-
-.portfolio-button-marketing {
-  color: var(--iris-color);
-  background-color: var(--cloud-color);
-  text-align: center;
-  cursor: pointer;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
-}
-
-.portfolio-button-marketing:hover {
+.portfolio-button:hover {
   color: var(--white-color);
   background-color: var(--ocean-hover-focus);
 }
@@ -553,7 +326,7 @@ body {
   list-style-type: none;
 }
 
-.banking-app-case {
+.portfolio-case {
   color: var(--navyblue-color);
 
   /* Header 3 */
@@ -565,183 +338,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.banking-app-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.cashless-pay-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.cashless-pay-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.meditation-app-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.meditation-app-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.taxi-service-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.taxi-service-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.screen-illustrations-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.screen-illustrations-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.online-courses-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.online-courses-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.instagram-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.instagram-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.organic-food-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.organic-food-descr {
-  color: var(--slate-color);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.fresh-coffee-case {
-  color: var(--navyblue-color);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-
-.fresh-coffee-descr {
+.portfolio-case-descr {
   color: var(--slate-color);
 
   /* Body */
@@ -759,11 +356,11 @@ body {
 
 .accent-studio-footer {
   color: var(--cloud-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16666667; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
