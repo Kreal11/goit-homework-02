@@ -19,7 +19,7 @@
 
 /* Navigation */
 
-.link {
+.link-logo {
   color: var(--iris-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -44,6 +44,10 @@
 
 .list {
   list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .link:hover {
@@ -275,7 +279,7 @@ body {
   text-align: center;
   cursor: pointer;
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -284,6 +288,11 @@ body {
 }
 
 .portfolio-button:hover {
+  color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
+}
+
+.portfolio-button:focus {
   color: var(--white-color);
   background-color: var(--ocean-hover-focus);
 }
